@@ -1,13 +1,15 @@
+<script setup lang="ts">
+  import Home from "./pages/home.vue"
+</script>
 <template>
   <el-config-provider namespace="ep">
+    <el-scrollbar height="100vh">
     <BaseHeader />
     <div style="display: flex">
-      <BaseSide />
-      <div>
-        <img alt="Vue logo" class="element-plus-logo" src="./assets/logo.png" />
-        <HelloWorld msg="Hello Vue 3.0 + Element Plus + Vite" />
-      </div>
+      <!-- <BaseSide /> -->
+        <Home/>
     </div>
+  </el-scrollbar>
   </el-config-provider>
 </template>
 

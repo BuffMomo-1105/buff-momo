@@ -1,28 +1,44 @@
 <script lang="ts" setup>
-import { toggleDark } from '~/composables';
+import { toggleDark } from "~/composables";
 </script>
 
 <template>
-  <el-menu class="el-menu-demo" mode="horizontal">
-    <el-menu-item index="1">Element Plus</el-menu-item>
-    <el-sub-menu index="2">
-      <template #title>Workspace</template>
-      <el-menu-item index="2-1">item one</el-menu-item>
-      <el-menu-item index="2-2">item two</el-menu-item>
-      <el-menu-item index="2-3">item three</el-menu-item>
-      <el-sub-menu index="2-4">
-        <template #title>item four</template>
-        <el-menu-item index="2-4-1">item one</el-menu-item>
-        <el-menu-item index="2-4-2">item two</el-menu-item>
-        <el-menu-item index="2-4-3">item three</el-menu-item>
-      </el-sub-menu>
-    </el-sub-menu>
-    <el-menu-item index="3" disabled>Info</el-menu-item>
-    <el-menu-item index="4">Orders</el-menu-item>
-    <el-menu-item h="full" @click="toggleDark()">
-      <button class="border-none w-full bg-transparent cursor-pointer" style="height: var(--ep-menu-item-height);">
-        <i inline-flex i="dark:ep-moon ep-sunny" />
-      </button>
-    </el-menu-item>
-  </el-menu>
+  <el-row>
+    <el-col :span="14" class="header-logo">
+      <!-- <h2>BuffMomo-1105</h2> -->
+    <img src="../../assets/signature.png"/>
+    </el-col>
+    <el-col :span="10">
+      <ul class="header-links flex justify-around">
+        <li>&#128073; Home</li>
+        <li>Projects</li>
+        <li>Organization</li>
+        <li>My Capabilities</li>
+        <li>
+          <span @click="toggleDark()">
+            <i inline-flex i="dark:ep-moon ep-sunny"
+          /></span>
+        </li>
+      </ul>
+    </el-col>
+  </el-row>
 </template>
+<style>
+.header-logo {
+  text-align: left !important;
+}
+.header-logo img{
+  position: relative;
+    top: -1rem;
+    left: -6rem;
+}
+.header-links {
+  list-style: none;
+  color: #a8a8a8;
+  opacity: 6;
+  margin-top:2.5rem !important;
+}
+.header-links li:hover{
+  opacity:1;
+}
+</style>
