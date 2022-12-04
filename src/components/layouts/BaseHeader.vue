@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { RouterLink } from "vue-router";
 import { toggleDark } from "~/composables";
 </script>
 
@@ -10,10 +11,10 @@ import { toggleDark } from "~/composables";
     </el-col>
     <el-col :span="10">
       <ul class="header-links flex justify-around">
-        <li>&#128073; Home</li>
-        <li>Projects</li>
-        <li>Organization</li>
-        <li>My Capabilities</li>
+        <li><RouterLink to="/"> Home</RouterLink></li>
+        <li><RouterLink to="/projects">Projects</RouterLink></li>
+        <li><RouterLink to="/organizations">Organization</RouterLink></li>
+        <li><RouterLink to="/capabilities">My Capabilities</RouterLink></li>
         <li>
           <span @click="toggleDark()">
             <i inline-flex i="dark:ep-moon ep-sunny"
@@ -38,7 +39,16 @@ import { toggleDark } from "~/composables";
   opacity: 6;
   margin-top:2.5rem !important;
 }
-.header-links li:hover{
+.header-links li a:hover{
+  color: var(--ep-color-warning);
   opacity:1;
+}
+.header-links li a{
+  color: #a8a8a8;
+  text-decoration: none;
+}
+.router-link-exact-active::before  {
+  content: "👉";
+  margin-right: 5px;
 }
 </style>

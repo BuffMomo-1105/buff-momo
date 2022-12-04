@@ -19,7 +19,7 @@ import { ref } from "vue";
       Hi, I am Pushpa Lama, a fellow IT geek currently working at CloudTech.
     </p>
     <p>Working as Front End developer at CloudTech since 2022.</p>
-    <p>And actively involvement in freelance projects since 2021.</p>
+    <p>And active involvement in freelance projects since 2021.</p>
     <p>
       Explore me & my works &#128073;
       <a href="https://discord.gg/RCUGuw6q">github</a> &#128072;
