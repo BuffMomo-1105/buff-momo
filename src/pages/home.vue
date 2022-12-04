@@ -22,7 +22,7 @@ import { ref } from "vue";
     <p>And active involvement in freelance projects since 2021.</p>
     <p>
       Explore me & my works &#128073;
-      <a href="https://discord.gg/RCUGuw6q">github</a> &#128072;
+      <a href="https://github.com/BuffMomo-1105" target="_blank">github</a> &#128072;
     </p>
     <br />
     <p>
@@ -39,7 +39,7 @@ import { ref } from "vue";
     </p>
     <p>
       We can gang up for some game if you like, join me &#128073;
-      <a href="https://github.com/BuffMomo-1105">discord</a>
+      <a href="https://discord.gg/RCUGuw6q5" target="_blank">discord</a>
     </p>
     <strong> Beat me if you can!!! Any challenge is accepted.</strong>
     <br />
@@ -53,14 +53,18 @@ import { ref } from "vue";
         class="w-[30px] ml-1"
       />
     </a>
+    <a href="https://www.linkedin.com/in/buffmomo/" target="_blank">
     <img
       src="https://img.icons8.com/color/512/linkedin-circled.png"
       class="w-[30px] ml-1"
     />
+  </a>
+  <a href="https://t.me/buffmomo1105" target="_blank">
     <img
       src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
       class="w-[30px] ml-1"
     />
+  </a>
   </div>
 </template>
 
