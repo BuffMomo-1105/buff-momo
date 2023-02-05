@@ -20,7 +20,7 @@ const orgList=ref([
             Currently, working at 
         </h1>
         <br>
-        CloudTech Nepal <a href="https://cloudtechservice.com/" target="_blank" class="cts"> &#127757;
+        CloudTech Nepal <a href="https://eokeh28br3n.exactdn.com/wp-content/uploads/logo.png?strip=all&lossy=1&ssl=1" target="_blank" class="cts"> &#127757;
         <br>
         <img :src="img3" alt="" class="w-[50%]">
     </a>
