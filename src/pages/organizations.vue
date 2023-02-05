@@ -7,7 +7,7 @@ import img4 from "../assets/elevate_wellness.png"
 import img5 from "../assets/elite.png"
 import img6 from "../assets/nuera.png"
 const orgList=ref([
-    {link:"http://www.benadvance.com/", imgSrc:img1},
+    {link:"http://www.benadvance.com/", imgSrc:'https://eokeh28br3n.exactdn.com/wp-content/uploads/Avalanche-Canada-Logo.jpg?strip=all&lossy=1&ssl=1'},
     {link:"http://www.benadvance.com/", imgSrc:img2},
     {link:"http://www.benadvance.com/", imgSrc:img4},
     {link:"http://www.benadvance.com/", imgSrc:img5},
@@ -20,9 +20,9 @@ const orgList=ref([
             Currently, working at 
         </h1>
         <br>
-        Keela Nepal<a href="https://eokeh28br3n.exactdn.com/wp-content/uploads/logo.png?strip=all&lossy=1&ssl=1" target="_blank" class="cts"> &#127757;
+        Keela Nepal<a href="https://www.keela.co" target="_blank" class="cts"> &#127757;
         <br>
-        <img :src="img3" alt="" class="w-[50%]">
+        <img src="https://eokeh28br3n.exactdn.com/wp-content/uploads/logo.png?strip=all&lossy=1&ssl=1" alt="" class="w-[50%]">
     </a>
         <div class="orgs-box">
             <a v-for="item in orgList" class="org-links">
