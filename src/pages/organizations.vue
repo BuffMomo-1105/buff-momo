@@ -24,11 +24,7 @@ const orgList=ref([
         <br>
         <img src="https://eokeh28br3n.exactdn.com/wp-content/uploads/logo.png?strip=all&lossy=1&ssl=1" alt="" class="w-[50%]">
     </a>
-        <div class="orgs-box">
-            <a v-for="item in orgList" class="org-links">
-                <img  :src="item.imgSrc" alt="img">
-            </a>
-        </div>
+        
 </div>
 </template>
 <style>
