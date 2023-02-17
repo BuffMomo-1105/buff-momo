@@ -22,7 +22,7 @@ import { ref } from "vue";
     <p>And active involvement in freelance projects since 2021.</p>
     <p>
       Explore me & my works &#128073;
-      <a href="https://github.com/BuffMomo-1105" target="_blank">github</a> &#128072;
+      <a href="https://github.com/pushpa1105" target="_blank">github</a> &#128072;
     </p>
     <br />
     <p>
